@@ -416,6 +416,7 @@ void createReport(Options& options, vector<Source> sources, string targetDir, St
 		inputSizeUnit = "GB";
 	}
 
+	cout << "STARTING POTREE CONVERTER" << endl;
 	cout << endl;
 	cout << "=======================================" << endl;
 	cout << "=== STATS                              " << endl;
