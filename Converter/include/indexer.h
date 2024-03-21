@@ -138,6 +138,7 @@ namespace indexer{
 		}
 
 		void clear(){
+			cout << "IM IN THE CLEAR FUNCTION" << endl;
 			fs::remove_all(path);
 
 			fs::create_directories(path);
