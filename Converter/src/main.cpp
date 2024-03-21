@@ -518,7 +518,7 @@ int main(int argc, char** argv) {
 	auto cpuData = getCpuData();
 
 	cout << "STARTING POTREE CONVERTER" << endl;
-	cout << "#threads: " << cpuData.numProcessors << endl;
+	cout << "#threads 123: " << cpuData.numProcessors << endl;
 
 	auto options = parseArguments(argc, argv);
 
