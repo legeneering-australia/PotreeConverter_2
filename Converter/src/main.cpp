@@ -416,7 +416,6 @@ void createReport(Options& options, vector<Source> sources, string targetDir, St
 		inputSizeUnit = "GB";
 	}
 
-	cout << "STARTING POTREE CONVERTER" << endl;
 	cout << endl;
 	cout << "=======================================" << endl;
 	cout << "=== STATS                              " << endl;
@@ -518,6 +517,7 @@ int main(int argc, char** argv) {
 	launchMemoryChecker(2 * 1024, 0.1);
 	auto cpuData = getCpuData();
 
+	cout << "STARTING POTREE CONVERTER" << endl;
 	cout << "#threads: " << cpuData.numProcessors << endl;
 
 	auto options = parseArguments(argc, argv);
