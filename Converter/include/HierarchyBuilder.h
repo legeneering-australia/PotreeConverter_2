@@ -344,9 +344,9 @@ struct HierarchyBuilder{
 		}
 
 		// redundant security check
-		if(iEndsWith(this->path, ".hierarchyChunks")){
-			fs::remove_all(this->path);
-		}
+		// if(iEndsWith(this->path, ".hierarchyChunks")){
+		// 	fs::remove_all(this->path);
+		// }
 
 		return;
 	}
